@@ -1,4 +1,4 @@
-import api from './axiosInstance'
+import api from './axiosInstance.js'
 
 /** POST /pipeline/run — naya research job start karo */
 export const runPipeline = async (topic) => {

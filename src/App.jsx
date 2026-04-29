@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { AuthProvider } from './context/AuthContext'
-import ProtectedRoute from './components/ProtectedRoute'
-import LoginPage from './pages/Login'
-import SignupPage from './pages/Signup'
-import GoogleCallback from './pages/GoogleCallback'
-import ChatPage from './pages/Chat'
+import { AuthProvider } from './context/AuthContext.jsx'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
+import LoginPage from './pages/Login.jsx'
+import SignupPage from './pages/Signup.jsx'
+import GoogleCallback from './pages/GoogleCallback.jsx'
+import ChatPage from './pages/Chat.jsx'
 
 export default function App() {
   return (

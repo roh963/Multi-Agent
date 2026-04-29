@@ -1,4 +1,4 @@
-import api from './axiosInstance'
+import api from './axiosInstance.js'
 
 /** POST /auth/signup */
 export const signup = async ({ email, password, name }) => {

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
-import api from '../api/axiosInstance'
+import { useAuth } from '../context/AuthContext.jsx'
+import api from '../api/axiosInstance.js'
 import '../styles/auth-animations.css'
 
 // ─── Cinematic Loading Rings ──────────────────────────────────────────────────

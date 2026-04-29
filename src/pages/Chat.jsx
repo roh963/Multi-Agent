@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../context/AuthContext'
-import { runPipeline, getMyJobs, getJob } from '../api/pipeline'
+import { useAuth } from '../context/AuthContext.jsx'
+import { runPipeline, getMyJobs, getJob } from '../api/pipeline.js'
 
 /* ═══════════════════════════════════════════════════════════════
    GLOBAL CSS — injected once into <head>

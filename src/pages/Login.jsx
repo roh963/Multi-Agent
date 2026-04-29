@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { login, getGoogleLoginUrl } from '../api/auth'
-import { useAuth } from '../context/AuthContext'
+import { login, getGoogleLoginUrl } from '../api/auth.js'
+import { useAuth } from '../context/AuthContext.jsx'
 import "../styles/auth-animations.css"
 
 // ─── Icons ────────────────────────────────────────────────────────────────────
