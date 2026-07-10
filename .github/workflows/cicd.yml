@@ -24,6 +24,3 @@ jobs:
 
       - name: Build Frontend
         run: npm run build
-
-      - name: Reload Nginx
-        run: sudo systemctl reload nginx
